@@ -1,0 +1,37 @@
+{
+  "name": "@maurodruwel/howest-resto",
+  "version": "1.0.0",
+  "description": "Official typed TypeScript / Node.js client library for Howest student restaurant menus",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "howest",
+    "resto",
+    "menu",
+    "sdk",
+    "api-client",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauroDruwel/howest-resto-ts.git"
+  },
+  "author": "Mauro Druwel",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
